@@ -1,0 +1,6 @@
+{
+  "name": "KidShield TV",
+  "description": "Ứng dụng kiểm soát thời gian xem TV cho trẻ em với giới hạn 1 giờ mỗi phiên, tự ngắt mạng chống tắt mở lại, khóa sau 21:00, chế độ Gia đình bảo vệ bằng mã PIN 8 số mã hóa và báo cáo tuần cho phụ huynh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

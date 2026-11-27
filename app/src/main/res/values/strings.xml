@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">KidShield TV</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_remote">Từ điện thoại</string>
+    <string name="nav_reports">Báo cáo tuần</string>
+    <string name="nav_settings">Phụ huynh</string>
+
+    <!-- Modes -->
+    <string name="mode_kids">Chế độ Trẻ em</string>
+    <string name="mode_family">Chế độ Gia đình</string>
+    <string name="mode_kids_badge">MẶC ĐỊNH • TRẺ EM</string>
+    <string name="mode_family_badge">ĐÃ MỞ KHÓA • GIA ĐÌNH</string>
+
+    <!-- Dashboard -->
+    <string name="kids_timer_title">Thời gian xem còn lại</string>
+    <string name="kids_rule_summary">Giới hạn 1 giờ/phiên • Tự khóa sau 21:00</string>
+    <string name="family_unlimited_title">Không giới hạn thời gian</string>
+    <string name="family_rule_summary">Toàn quyền truy cập mạng TV cho cả gia đình</string>
+    <string name="curfew_label">Giờ giới nghiêm trẻ em</string>
+    <string name="curfew_value">21:00 – 06:00</string>
+    <string name="network_status_open">Mạng TV: Đang kết nối</string>
+    <string name="network_status_blocked">Mạng TV: ĐÃ NGẮT MẠNG</string>
+    <string name="vpn_permission_needed">Cần cấp quyền lá chắn VPN để tự động ngắt mạng khi hết giờ</string>
+    <string name="btn_enable_vpn">Kích hoạt Lá chắn Ngắt mạng</string>
+    <string name="btn_switch_family">Mở Chế độ Gia đình (PIN 8 số)</string>
+    <string name="btn_switch_kids">Chuyển về Chế độ Trẻ em</string>
+    <string name="btn_grant_extra_hour">Cấp thêm phiên 1 giờ (Phụ huynh)</string>
+    <string name="btn_pause_timer">Tạm dừng đếm</string>
+    <string name="btn_resume_timer">Tiếp tục xem</string>
+
+    <!-- Lockout States -->
+    <string name="lock_1h_title">Đã hết 1 giờ xem TV!</string>
+    <string name="lock_1h_subtitle">Mạng TV đã tự động ngắt. Tắt bật lại TV vẫn giữ khóa để bảo vệ mắt bé.</string>
+    <string name="lock_curfew_title">Đã đến 21:00 – Giờ đi ngủ!</string>
+    <string name="lock_curfew_subtitle">Chế độ Trẻ em chỉ được xem đến 21:00. Mạng TV đã tự động ngắt cho đến 06:00 sáng.</string>
+    <string name="anti_reboot_badge">Chống tắt bật lại đang hoạt động</string>
+
+    <!-- PIN & Encryption -->
+    <string name="pin_setup_title">Thiết lập mã PIN 8 số Phụ huynh</string>
+    <string name="pin_setup_subtitle">Mã PIN được băm PBKDF2-SHA256 và ẩn hoàn toàn khi nhập để trẻ không nhìn thấy số.</string>
+    <string name="pin_verify_title">Nhập mã PIN 8 số Phụ huynh</string>
+    <string name="pin_verify_subtitle">Mọi phím bấm được mã hóa che giấu tức thì, không hiển thị số vừa nhập.</string>
+    <string name="pin_confirm_title">Xác nhận lại mã PIN 8 số</string>
+    <string name="pin_shuffled_badge">Bàn phím bảo mật đã xáo trộn ngẫu nhiên</string>
+    <string name="pin_error_mismatch">Mã PIN xác nhận không khớp. Vui lòng nhập lại.</string>
+    <string name="pin_error_wrong">Mã PIN không đúng. Vui lòng thử lại.</string>
+    <string name="pin_error_cooldown">Nhập sai nhiều lần. Vui lòng đợi %1$d giây.</string>
+    <string name="pin_delete">Xóa</string>
+    <string name="pin_cancel">Hủy</string>
+
+    <!-- Reports -->
+    <string name="reports_title">Báo cáo sử dụng hàng tuần</string>
+    <string name="reports_subtitle">Theo dõi tổng thời gian xem TV 7 ngày gần nhất</string>
+    <string name="reports_locked_title">Khu vực dành riêng cho Phụ huynh</string>
+    <string name="reports_locked_desc">Nhập mã PIN 8 số để xem thống kê chi tiết thời gian xem và số lần ngắt mạng.</string>
+    <string name="btn_unlock_parent">Mở khóa bằng PIN 8 số</string>
+    <string name="kpi_weekly_kids">Tổng giờ Trẻ em</string>
+    <string name="kpi_weekly_family">Tổng giờ Gia đình</string>
+    <string name="kpi_blocks_count">Số lần tự ngắt</string>
+    <string name="kpi_daily_avg">Trung bình/ngày</string>
+    <string name="empty_sessions_title">Chưa có phiên xem nào được ghi nhận</string>
+    <string name="empty_sessions_desc">Thời gian xem thực tế ở Chế độ Trẻ em và Gia đình sẽ được lưu tự động tại đây.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Cài đặt Phụ huynh</string>
+    <string name="settings_anti_peek">Xáo trộn vị trí phím số PIN</string>
+    <string name="settings_anti_peek_desc">Đổi ngẫu nhiên vị trí 0–9 mỗi lần mở bàn phím PIN để chống nhìn trộm</string>
+    <string name="settings_boot_kids">Mặc định Chế độ Trẻ em khi bật TV</string>
+    <string name="settings_boot_kids_desc">Tự động trở về Chế độ Trẻ em và giữ nguyên trạng thái khóa sau khi tắt/bật lại</string>
+    <string name="settings_change_pin">Đổi mã PIN 8 số mới</string>
+    <string name="settings_vpn_shield">Lá chắn tự ngắt mạng (Local VPN)</string>
+    <string name="settings_vpn_active">Đã cấp quyền và sẵn sàng ngắt mạng</string>
+    <string name="settings_vpn_inactive">Chưa cấp quyền VPN hệ thống</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Giám sát KidShield TV</string>
+    <string name="notif_channel_desc">Thông báo thời gian xem TV và trạng thái ngắt mạng tự động</string>
+</resources>
